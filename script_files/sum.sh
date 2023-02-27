@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "enter the number to find the sum of numbers"
-read num
+num=$1
 temp=$num
 result=0
 while [ $num -gt 0 ]
